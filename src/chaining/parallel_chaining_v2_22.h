@@ -863,7 +863,7 @@ int32_t comput_sc(uint64_t ai_x, uint64_t ai_y, uint64_t aj_x, uint64_t aj_y, in
 
 			f[i] = max_f; 
 			p[i] = max_j;
-			v[i] = max_j >= 0 && v[max_j] > max_f? v[max_j] : max_f; // v[] keeps the peak score up to i; f[] is the score ending at i, not always the peak
+			//v[i] = max_j >= 0 && v[max_j] > max_f? v[max_j] : max_f; // v[] keeps the peak score up to i; f[] is the score ending at i, not always the peak
 
 #if 1
 
@@ -1105,7 +1105,7 @@ int32_t comput_sc(uint64_t ai_x, uint64_t ai_y, uint64_t aj_x, uint64_t aj_y, in
 
 			f[i] = max_f; 
 			p[i] = max_j;
-			v[i] = max_j >= 0 && v[max_j] > max_f? v[max_j] : max_f; // v[] keeps the peak score up to i; f[] is the score ending at i, not always the peak
+			//v[i] = max_j >= 0 && v[max_j] > max_f? v[max_j] : max_f; // v[] keeps the peak score up to i; f[] is the score ending at i, not always the peak
 
 #if 1
 
